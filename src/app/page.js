@@ -1,4 +1,5 @@
 import Banner from "@/common/Banner";
+import Footer from "@/common/Footer";
 import Nav from "@/components/Nav";
 import Products from "@/components/Products";
 
@@ -71,7 +72,7 @@ export default function Home() {
           name={"Vinos"}
         />
       </div>
-      <div className="my-20 w-full h-20"></div>
+      <Footer />
     </>
   );
 }

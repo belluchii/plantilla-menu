@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Product({ name, image, price }) {
   return (
     <>
-      <div className="w-[500px] m-5 p-3 shadow-md bg-white bg-opacity-20 rounded-md">
+      <div className="w-[500px] m-5 p-3 shadow-md bg-white bg-opacity-10 rounded-md">
         <h2 className="font-semibold">{name}</h2>
         <div className=" flex justify-center ">
           <div className="w-3/6 flex  flex-col justify-between">
