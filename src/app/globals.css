@@ -18,20 +18,12 @@
 
 body {
   min-height: 100vh;
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #000;
+  background: linear-gradient(to bottom, transparent, rgb(224, 239, 230))
+    rgb(200, 210, 210);
 }
 
 .bg-gradient {
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(224, 239, 230))
+    rgb(200, 210, 210);
 }

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Banner />
-      <div className="bg-gradient rounded-md flex flex-col justify-center  shadow-md  w-[80vw] mx-auto translate-y-[-70px]">
+      <div className="bg-gradient rounded-md flex flex-col justify-center  shadow-md md:w-[80vw] w-full mx-auto translate-y-[-70px]">
         <Nav />
         <Products
           arr={[
